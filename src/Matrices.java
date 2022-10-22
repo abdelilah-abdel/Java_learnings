@@ -2,11 +2,12 @@ public class Matrices {
 
     public static void main(String args[]){
 
-        double[][] t1 = { {8, 5, 2},  {8, 8, 8}};
+        double[][] t1 = { {8, 5, 2,8},  {8, 8, 8,6}};
         int[][] t2 = { {6, 3, 7},  {2, 1, 10} };
 
-        affiche(t1);
-
+       // affiche(t1);
+      boolean T =   rgulier(t1);
+        System.out.print(T);
     }
 
 
@@ -24,6 +25,25 @@ public class Matrices {
             System.out.println();
         }
     }
+
+
+    public static   boolean rgulier(double t[][])
+    {
+        int lignes = t.length;
+        int line_size = t[0].length;
+
+        for(int i = 0; i < lignes; i++)
+        {
+                if (t[i].length != line_size )
+                {
+                    return  false;
+                }
+        }
+        return true;
+    }
+
+
+
 
 
 
