@@ -2,18 +2,15 @@ public class UtilTab {
 
     public static void main(String[] args){
 
-
-        genere(20);
-
-
         int[][] t1 = { {8, 5, 2},  {8, 8, 8}};
         int[][] t2 = { {6, 3, 7},  {2, 1, 10} };
 
+        generer(20);
         sum_vectors(t1,t2);
 
     }
 
-    static  int[] genere( int n ){
+    static  int[] generer( int n ){
         int[] n_impairs = new int[n/2];
         int j =0 ;
         for(int i = 1; i<n; i=i+2){
