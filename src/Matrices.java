@@ -30,11 +30,11 @@ public class Matrices {
     public static   boolean rgulier(double t[][])
     {
         int lignes = t.length;
-        int line_size = t[0].length;
+        int first_line_size = t[0].length;
 
-        for(int i = 0; i < lignes; i++)
+        for(int i = 1; i < lignes; i++)
         {
-                if (t[i].length != line_size )
+                if (t[i].length != first_line_size )
                 {
                     return  false;
                 }
