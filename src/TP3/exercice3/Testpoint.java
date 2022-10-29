@@ -1,5 +1,4 @@
-package TP3;
-import TP3.MaxNorme;
+package TP3.exercice3;
 
 public class Testpoint {
 

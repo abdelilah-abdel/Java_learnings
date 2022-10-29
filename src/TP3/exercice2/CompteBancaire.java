@@ -1,4 +1,4 @@
-package TP3;
+package TP3.exercice2;
 
 public class CompteBancaire {
          private int num_compte;

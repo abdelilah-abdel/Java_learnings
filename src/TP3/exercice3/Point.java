@@ -1,4 +1,4 @@
-package TP3;
+package TP3.exercice3;
 
 public class Point {
     private int x ;
