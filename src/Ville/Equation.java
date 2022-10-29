@@ -4,7 +4,7 @@ public class Equation {
 
     public static   void  main(String[] args){
 
-        Equation e1 = new Equation(2,-3,9f/8f);  // impooooortant
+        Equation e1 = new Equation(2f,-3f,9f/8f);  // impooooortant
         e1.resoudre_eqt();
         System.out.println(e1.delta_calculation());
 
@@ -21,6 +21,7 @@ public class Equation {
     }
 
     public Equation(){
+
         this(0,0,0) ;
     }
 
